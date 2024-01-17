@@ -2,7 +2,7 @@ import React from "react";
 
 const Child = ({ showModal, setShowModal }) => {
   return (
-    <div>
+    <div className="child">
       <h2> Child Component</h2>
 
       <button onClick={() => setShowModal(true)}> Show Modal </button>
