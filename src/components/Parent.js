@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Child from "./Child";
-let [showModal, setShowModal] = useState(false);
 
 const Parent = () => {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <div className="parent">
       <h1> Parent Component </h1>
